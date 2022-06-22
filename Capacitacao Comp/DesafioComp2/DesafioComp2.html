@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio Comp</title>
+        <!-- import da fonte -->
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="DesafioComp2.css">
+    </head>
+
+    <body>
+        <!-- Barra Lateral -->
+        <nav class="sideBar">
+            <img id="logoComp" src="Images/LogoComp.png" alt="logoComp">
+            <a href="#"> <img class="icons" src="Images/grid-two-up-32.png" alt="documentIcon">Cards</a>
+            <a href="#carrossel"> <img class="icons" src="Images/stack-of-photos-32.png" alt="cards">Carrossel</a>
+            <a href="#"> <img class="icons" src="Images/plus-5-32.png" alt="documentIcon">Outro</a>
+            <a href="#"> <img class="icons" src="Images/plus-5-32.png" alt="documentIcon">Outro</a>
+            <p id="developed">Desenvolvido Por : <br>Gabriel Zanda </p>
+        </nav>
+
+        <!-- Barra Superior -->
+        <header class="navBar">
+            <img id="semBg" src="Images/comp-removebg-preview.png" alt="Logo sem bg">
+            <a href="#">Quem Somos ?</a>
+            <a href="#">Projetos</a>
+            <a href="#">Contatos</a>
+            <input type="text" placeholder=" Busca..." name="search">
+        </header>
+
+        <!-- "Main" (corpo da página, fora as navBar/sideBar)-->
+        <section class="main">
+            <div>
+                <h1> - Cards - </h1>
+            </div>
+
+            <!-- Box dos Cards -->
+            <article class="article-cards">
+                <div class="card-container">
+                    <img class="totoro" src="Images/totoro900x900.png" alt="totoro" style="width: 100%;">
+                    <div class="bottomText">
+                    <p>Totoro </p>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <img class="totoro" src="Images/totoro900x900.png" alt="totoro" style="width: 100%;">
+                    <div class="bottomText">
+                    <p>Totoro</p>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <img class="totoro" src="Images/totoro900x900.png" alt="totoro" style="width: 100%;">
+                    <div class="bottomText">
+                    <p>Totoro</p>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <img class="totoro" src="Images/totoro900x900.png" alt="totoro" style="width: 100%;">
+                    <div class="bottomText">
+                    <p>Totoro</p>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <img class="totoro" src="Images/totoro900x900.png" alt="totoro" style="width: 100%;">
+                    <div class="bottomText">
+                    <p>Totoro</p>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <img class="totoro" src="Images/totoro900x900.png" alt="totoro" style="width: 100%;">
+                    <div class="bottomText">
+                    <p>Totoro</p>
+                    </div>
+                </div>
+                
+            </article>
+
+            <div>
+                <h1 id="carrossel"> - Carrossel - </h1>
+            </div>
+
+            <!-- Box do Carrossel de Imagens (feito somente com HTML e CSS) -->
+            <article class="slider-container">     
+                <div class="slider">
+                    <div class="slides">
+                        <div id="slides__1" class="slide">
+                            <img class="Carrossel" src="Images/cat1.jpg" alt="Gato1">
+                            <p>Todo</p>
+                        <a class="slide__prev" href="#slides__4" title="Next"></a>
+                        <a class="slide__next" href="#slides__2" title="Next"></a>
+                        </div>
+
+                        <div id="slides__2" class="slide">
+                            <img class="Carrossel" src="Images/cat2.jpg" alt="Gato2">
+                            <p>Mundo</p>
+                        <a class="slide__prev" href="#slides__1" title="Prev"></a>
+                        <a class="slide__next" href="#slides__3" title="Next"></a>
+                        </div>
+
+                        <div id="slides__3" class="slide">
+                            <img class="Carrossel" src="Images/cat3.jpg" alt="Gato3">
+                            <p>Ama</p>
+                        <a class="slide__prev" href="#slides__2" title="Prev"></a>
+                        <a class="slide__next" href="#slides__4" title="Next"></a>
+                        </div>
+
+                        <div id="slides__4" class="slide">
+                            <img class="Carrossel" src="Images/cat4.jpg" alt="Gato4">
+                            <p>Gatinhos</p>
+                        <a class="slide__prev" href="#slides__3" title="Prev"></a>
+                        <a class="slide__next" href="#slides__1" title="Prev"></a>
+                        </div>
+
+                    </div>
+                    <div class="slider__nav">
+                    <a class="slider__navlink" href="#slides__1"></a>
+                    <a class="slider__navlink" href="#slides__2"></a>
+                    <a class="slider__navlink" href="#slides__3"></a>
+                    <a class="slider__navlink" href="#slides__4"></a>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+        
+        <!-- Import do JS (acabei nem utilizando) -->
+        <script href="DesafioComp2.js"></script>
+    </body>
+</html>
